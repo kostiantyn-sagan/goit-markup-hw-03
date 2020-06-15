@@ -226,7 +226,7 @@ img {
 }
 
 .features-item {
-  width: 270px;
+  width: calc((100% - 90px) / 4);
 }
 
 .features-title {
@@ -253,7 +253,7 @@ img {
 }
 
 .directions-item {
-  width: 370px;
+  width: calc((100% - 60px) / 3);
 }
 
 .directions-title {
@@ -281,7 +281,7 @@ img {
 }
 
 .team-item {
-  width: 270px;
+  width: calc((100% - 90px) / 4);
 
   background-color: var(--white-color);
 }
@@ -319,7 +319,7 @@ img {
 }
 
 .account {
-  width: 44px;
+  width: calc((100% - 30px) / 4);
 }
 
 .account:not(:last-child) {
@@ -346,7 +346,7 @@ img {
 }
 
 .client {
-  width: 170px;
+  width: calc((100% - 150px) / 6);
 }
 
 /* Подвал сайта */
@@ -496,6 +496,7 @@ img {
 }
 
 .project-item {
+  width: calc((100% - 90px) / 3);
   margin: 15px;
 }
 
